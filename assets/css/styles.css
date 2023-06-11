@@ -1094,7 +1094,7 @@ img{
     }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 350px) {
     /* Apply styles to hide the image */
     .contact__image {
         display: none;
