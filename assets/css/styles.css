@@ -1094,6 +1094,13 @@ img{
     }
 }
 
+@media screen and (max-width: 568px) {
+    /* Apply styles to hide the image */
+    .contact__image {
+        display: none;
+    }   
+}
+
 @media screen and (min-width: 768px){
     .container{
         margin-left: auto;
