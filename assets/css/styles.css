@@ -280,6 +280,13 @@ img{
     align-items: center;
 }
 
+.home__img img {
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 80%; /* Scale the image while maintaining aspect ratio */
+    height: auto; /* Let the height adjust automatically */
+}
+
 .home__social{
     display: grid;
     grid-template-columns: max-content;
@@ -1026,9 +1033,12 @@ img{
     .home__blob{
         width: 180px;
     }
+
     .home__img img {
-        height: 200px;
-        width: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        max-width: 50%; /* Scale the image while maintaining aspect ratio */
+        height: auto; /* Let the height adjust automatically */
     }
     
     .skills__title{
